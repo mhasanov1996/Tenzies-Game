@@ -1,9 +1,15 @@
 import React from "react";
 
-export const Box = (props) => {
+export const Box = ({ props, helding, index }) => {
+  const styles = {
+    backgroundColor: props.held ? "#59E391" : "white",
+  };
+
   return (
     <>
-      <div className="numberBox">{props.value}</div>
+      <div className="numberBox" style={styles} onClick={() => helding(index)}>
+        {props.number}
+      </div>
     </>
   );
 };
