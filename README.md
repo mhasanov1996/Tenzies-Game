@@ -1,6 +1,6 @@
 # Tenzies Game
 
-Figma File: (https://www.figma.com/file/FqsxRUhAaXM4ezddQK0CdR/Tenzies?node-id=2%3A31)
+Figma File: (https://www.figma.com/file/FqsxRUhAaXM4ezddQK0CdR/Tenzies?node-id=2%3A31)\
 Game Rules: Roll until all dice are the same. Click each die to freeze it at its current value between rolls.
 
 # Getting Started with Create React App
